@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+.paddingTop36 {
+  padding-top: 36px !important;
+}
+.paddingTop60 {
+  padding-top: 60px !important;
+}
+body {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #000000;
+}
+#top {
+  width: 100%;
+  height: 36px;
+  border-bottom: 1px solid #00ff00;
+  text-align: center;
+}
+#top .center {
+  color: #00ff00;
+  font-size: 18px;
+  line-height: 36px;
+}
+#top .center span {
+  font-weight: 600;
+}
+.bar-graph {
+  width: 460px;
+  height: auto;
+  margin: 0 auto;
+  padding: 36px 10px 36px;
+}
+.bar-graph .wrap {
+  width: 218px;
+  display: inline-block;
+  padding: 100px 0 0;
+  text-align: center;
+  position: relative;
+}
+.bar-graph .wrap .content {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.bar-graph .wrap .content .name {
+  color: #00ff00;
+  font-size: 20px;
+}
+.bar-graph .wrap .content .bio {
+  color: #00ff00;
+}
+.bar-graph .wrap .content .link a {
+  font-size: 14px;
+  color: #00ff00;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+.bar-graph .wrap .count {
+  color: #00ff00;
+}
+.bar-graph .wrap .bar-wrap {
+  width: 36px;
+  height: auto;
+  margin: 0 auto 5px;
+}
+.bar-graph .wrap .bar-wrap .bar-bg {
+  width: 36px;
+  height: 300px;
+  margin: auto;
+  border: 1px solid #00e500;
+  border-bottom: 5px solid #00e500;
+  overflow: hidden;
+  position: relative;
+}
+.bar-graph .wrap .bar-wrap .bar-bg .bar-fill {
+  background-color: #007f00;
+  width: 36px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
