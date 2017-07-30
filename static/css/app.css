@@ -32,12 +32,13 @@ body {
   height: auto;
   margin: 0 auto;
   padding: 36px 10px 36px;
+  overflow: hidden;
 }
 .bar-graph .wrap {
-  width: 218px;
-  display: inline-block;
+  width: 214px;
   padding: 100px 0 0;
   text-align: center;
+  float: left;
   position: relative;
 }
 .bar-graph .wrap .content {
