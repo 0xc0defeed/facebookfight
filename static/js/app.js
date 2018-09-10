@@ -1,4 +1,4 @@
-var token = "582566498799019|IOMZ1MkaciFtsC_qb1bxBprO-tc",
+var token = "434836893594257|3swATmmbBJNJDTO-sxaLQp2bIeE",
     fanCountNumber = 1000000,
     talkingAboutNumber = 60000,
     fanCountNumberIT = 200000,
